@@ -1,0 +1,2 @@
+Array.from(document.querySelectorAll(".field")).forEach(function(e){var t=e.querySelector("input"),r=document.createElement("label"),a=t.id,l=t.name,i="firstName"===l?"First Name":"lastName"===l?"Last Name":l.charAt(0).toUpperCase()+l.slice(1);r.textContent=i,r.setAttribute("for",a),t.setAttribute("placeholder",i),r.classList.add("field-label"),t.insertAdjacentElement("beforebegin",r)});
+//# sourceMappingURL=index.31e6ab8e.js.map
